@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
             _inputField("Password", passwordController, isPassword: true),
             const SizedBox(height: 50),
             _loginBtn(),
-            const SizedBox(height: 20),
+            const SizedBox(height: 25),
             _extraText(),
           ],
         ),
@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
       decoration: BoxDecoration(
           border: Border.all(color: Colors.white, width: 2),
           shape: BoxShape.circle),
-      child: const Icon(Icons.person, color: Colors.white, size: 120),
+      child: const Icon(Icons.person, color: Colors.orange, size: 115),
     );
   }
 
